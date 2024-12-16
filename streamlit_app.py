@@ -38,6 +38,11 @@ st.markdown("""
             align-items: center;
             width: 100%;
         }
+        .stRadio {
+        display: flex;
+        justify-content: center;
+        gap: 60px;
+        }
     </style>
 """, unsafe_allow_html=True)
 
