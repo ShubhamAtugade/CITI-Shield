@@ -51,7 +51,7 @@ if "current_page" not in st.session_state:
     st.session_state.current_page = "Home"
 
 # Navigation Bar (Horizontal Radio Buttons)
-st.image("logo.png", width=325)
+st.image("logo.png", width=280)
 page_options = ["Home", "Visualization", "Prediction", "About Us"]
 selected_page = st.radio("", page_options, horizontal=True, key="current_page", label_visibility="collapsed")
 
