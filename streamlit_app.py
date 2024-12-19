@@ -9,6 +9,9 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn import metrics
 from folium.plugins import HeatMap
 
+<script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
+<zapier-interfaces-chatbot-embed is-popup='true' chatbot-id='cm4ebchd2003fy4pu2vmk3ur2'></zapier-interfaces-chatbot-embed>
+
 # Load the datasets
 @st.cache_data
 def load_visualization_data():
